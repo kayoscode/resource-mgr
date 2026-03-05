@@ -1,0 +1,40 @@
+Start testing: Mar 05 07:05 MST
+----------------------------------------------------------
+1/1 Testing: resource_registry_gtests
+1/1 Test: resource_registry_gtests
+Command: "/home/bryce/Documents/cpp/resource-mgr/build/tests/resource_registry_tests"
+Directory: /home/bryce/Documents/cpp/resource-mgr/build/tests
+"resource_registry_gtests" start time: Mar 05 07:05 MST
+Output:
+----------------------------------------------------------
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from ResourceRegistryTests
+[ RUN      ] ResourceRegistryTests.TestSingleThreadedAddResources
+[       OK ] ResourceRegistryTests.TestSingleThreadedAddResources (0 ms)
+[ RUN      ] ResourceRegistryTests.TestSingleThreadedDestructor
+[       OK ] ResourceRegistryTests.TestSingleThreadedDestructor (0 ms)
+[ RUN      ] ResourceRegistryTests.SingleThreadedAddDuplicateName
+[       OK ] ResourceRegistryTests.SingleThreadedAddDuplicateName (57 ms)
+[ RUN      ] ResourceRegistryTests.MultiThreadedConcurrentReads
+[       OK ] ResourceRegistryTests.MultiThreadedConcurrentReads (29 ms)
+[ RUN      ] ResourceRegistryTests.MultiThreadedWriteWithReadContention
+[       OK ] ResourceRegistryTests.MultiThreadedWriteWithReadContention (93 ms)
+[ RUN      ] ResourceRegistryTests.MultiThreadedHighContention
+[       OK ] ResourceRegistryTests.MultiThreadedHighContention (3 ms)
+[ RUN      ] ResourceRegistryTests.TestObjectOperators
+[       OK ] ResourceRegistryTests.TestObjectOperators (0 ms)
+[----------] 7 tests from ResourceRegistryTests (184 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (184 ms total)
+[  PASSED  ] 7 tests.
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"resource_registry_gtests" end time: Mar 05 07:05 MST
+"resource_registry_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 05 07:05 MST

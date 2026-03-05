@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/resource_registry_tests.dir/link.d CMakeFiles/resource_registry_tests.dir/ResourceRegistryTests.test.cpp.o -o resource_registry_tests  ../lib/libgtest_main.a ../libresource-manager.a ../lib/libgtest.a

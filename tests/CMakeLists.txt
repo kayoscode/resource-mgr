@@ -1,0 +1,3 @@
+add_executable(resource_registry_tests ResourceRegistryTests.test.cpp)
+target_link_libraries(resource_registry_tests GTest::gtest_main resource-manager)
+add_test(resource_registry_gtests resource_registry_tests)

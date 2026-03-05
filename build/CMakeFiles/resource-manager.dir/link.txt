@@ -1,0 +1,2 @@
+/usr/bin/ar qc libresource-manager.a "CMakeFiles/resource-manager.dir/main.cpp.o"
+/usr/bin/ranlib libresource-manager.a
