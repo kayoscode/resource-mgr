@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/bryce/Documents/cpp/resource-mgr/build/_deps/googletest-subbuild/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

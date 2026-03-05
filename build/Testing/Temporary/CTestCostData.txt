@@ -1,2 +1,0 @@
-resource_registry_gtests 1 0.18557
----
